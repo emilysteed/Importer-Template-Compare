@@ -1,0 +1,161 @@
+DataComPy Comparison
+--------------------
+
+DataFrame Summary
+-----------------
+
+      DataFrame  Columns  Rows
+0      from_nis       73   102
+1  from_country       73   102
+
+Column Summary
+--------------
+
+Number of columns in common: 72
+Number of columns in from_nis but not in from_country: 1
+Number of columns in from_country but not in from_nis: 1
+
+Row Summary
+-----------
+
+Matched on: eu-tr evaluation unit - trachoma*, fy
+Any duplicates on match values: No
+Absolute Tolerance: 0
+Relative Tolerance: 0
+Number of rows in common: 102
+Number of rows in from_nis but not in from_country: 0
+Number of rows in from_country but not in from_nis: 0
+
+Number of rows with some compared columns unequal: 25
+Number of rows with all compared columns equal: 77
+
+Column Comparison
+-----------------
+
+Number of columns compared with some values unequal: 5
+Number of columns compared with all values equal: 67
+Total number of values which compare unequal: 100
+
+Columns with Unequal Values or Types
+------------------------------------
+
+                      Column from_nis dtype from_country dtype  # Unequal  Max Diff  # Null Diff
+4  programmatic decision mda         object             object         17       0.0           17
+0              review status         object             object         25       0.0            0
+1             survey status*         object             object         24       0.0            0
+2       survey tf result (%)         object             object         17       0.0           17
+3       survey tt result (%)         object             object         17       0.0           17
+
+Sample Rows with Unequal Values
+-------------------------------
+
+   eu-tr evaluation unit - trachoma*    fy review status (from_nis) review status (from_country)
+0      ET-TR-EU-543137-Ganta Afeshum  2024                 Reviewed                 Not reviewed
+1       ET-TR-EU-099410-Laelaymachew  2024                 Reviewed                 Not reviewed
+2         ET-TR-EU-493246-Gulomekeda  2024                 Reviewed                 Not reviewed
+3              ET-TR-EU-182142-Bizet  2024                 Reviewed                 Not reviewed
+4       ET-TR-EU-706350-Tahtaymachew  2024                 Reviewed                 Not reviewed
+5               ET-TR-EU-870616-Rama  2024                 Reviewed                 Not reviewed
+6      ET-TR-EU-999950-Tahtay Adyabo  2024                 Reviewed                 Not reviewed
+7      ET-TR-EU-924594-Maekel Adyabo  2024                 Reviewed                 Not reviewed
+8          ET-TR-EU-620206-Adi Daero  2024                 Reviewed                 Not reviewed
+9            ET-TR-EU-605070-Tsimbla  2024                 Reviewed                 Not reviewed
+10            ET-TR-EU-859449-Asgede  2024                 Reviewed                 Not reviewed
+11            ET-TR-EU-522325-Naeder  2024                 Reviewed                 Not reviewed
+12             ET-TR-EU-045454-Chila  2024                 Reviewed                 Not reviewed
+13              ET-TR-EU-892172-Adet  2024                 Reviewed                 Not reviewed
+14             ET-TR-EU-544962-Ahsea  2024                 Reviewed                 Not reviewed
+15          ET-TR-EU-914506-Freweyni  2024                 Reviewed                 Not reviewed
+16           ET-TR-EU-210905-Seyemti  2024                 Reviewed                 Not reviewed
+17         ET-TR-EU-148517-Daba guna  2024                 Reviewed                 Not reviewed
+18  ET-TR-EU-238968-Abergele Yechila  2024                 Reviewed                 Not reviewed
+19     ET-TR-EU-977569-Tahtay Koraro  2024                 Reviewed                 Not reviewed
+20       ET-TR-EU-851364-Subhasaesie  2024                 Reviewed                 Not reviewed
+21     ET-TR-EU-351504-Laelay Adyabo  2024                 Reviewed                 Not reviewed
+22       ET-TR-EU-418139-Tsaeda Emba  2024                 Reviewed                 Not reviewed
+23        ET-TR-EU-313920-Tankamlash  2024                 Reviewed                 Not reviewed
+24       ET-TR-EU-854095-Edaga Hamus  2024                 Reviewed                 Not reviewed
+
+   eu-tr evaluation unit - trachoma*    fy               survey status* (from_nis)   survey status* (from_country)
+0      ET-TR-EU-977569-Tahtay Koraro  2024                                 Planned         Postponed to another FY
+1          ET-TR-EU-620206-Adi Daero  2024                                 Planned  Completed; final data reported
+2      ET-TR-EU-924594-Maekel Adyabo  2024                                 Planned  Completed; final data reported
+3              ET-TR-EU-544962-Ahsea  2024  Completed; final data not yet reported  Completed; final data reported
+4               ET-TR-EU-870616-Rama  2024  Completed; final data not yet reported  Completed; final data reported
+5            ET-TR-EU-210905-Seyemti  2024                                 Planned  Completed; final data reported
+6              ET-TR-EU-182142-Bizet  2024                                 Planned         Postponed to another FY
+7             ET-TR-EU-522325-Naeder  2024                                 Planned  Completed; final data reported
+8            ET-TR-EU-605070-Tsimbla  2024                                 Planned  Completed; final data reported
+9       ET-TR-EU-099410-Laelaymachew  2024                                 Planned  Completed; final data reported
+10         ET-TR-EU-148517-Daba guna  2024  Completed; final data not yet reported  Completed; final data reported
+11            ET-TR-EU-859449-Asgede  2024                                 Planned  Completed; final data reported
+12       ET-TR-EU-418139-Tsaeda Emba  2024  Completed; final data not yet reported  Completed; final data reported
+13          ET-TR-EU-914506-Freweyni  2024  Completed; final data not yet reported  Completed; final data reported
+14        ET-TR-EU-493246-Gulomekeda  2024                                 Planned         Postponed to another FY
+15              ET-TR-EU-892172-Adet  2024                                 Planned  Completed; final data reported
+16        ET-TR-EU-313920-Tankamlash  2024                                 Planned         Postponed to another FY
+17     ET-TR-EU-543137-Ganta Afeshum  2024                                 Planned         Postponed to another FY
+18             ET-TR-EU-045454-Chila  2024  Completed; final data not yet reported  Completed; final data reported
+19       ET-TR-EU-854095-Edaga Hamus  2024  Completed; final data not yet reported  Completed; final data reported
+20  ET-TR-EU-238968-Abergele Yechila  2024                                 Planned         Postponed to another FY
+21     ET-TR-EU-999950-Tahtay Adyabo  2024                                 Planned         Postponed to another FY
+22      ET-TR-EU-706350-Tahtaymachew  2024                                 Planned  Completed; final data reported
+23       ET-TR-EU-851364-Subhasaesie  2024  Completed; final data not yet reported  Completed; final data reported
+
+   eu-tr evaluation unit - trachoma*    fy survey tf result (%) (from_nis) survey tf result (%) (from_country)
+0           ET-TR-EU-914506-Freweyni  2024                             NaN                               18.81
+1      ET-TR-EU-924594-Maekel Adyabo  2024                             NaN                                6.78
+2               ET-TR-EU-892172-Adet  2024                             NaN                               11.47
+3          ET-TR-EU-620206-Adi Daero  2024                             NaN                                7.27
+4            ET-TR-EU-605070-Tsimbla  2024                             NaN                                8.79
+5              ET-TR-EU-544962-Ahsea  2024                             NaN                               13.28
+6             ET-TR-EU-522325-Naeder  2024                             NaN                                  16
+7               ET-TR-EU-870616-Rama  2024                             NaN                               11.23
+8            ET-TR-EU-210905-Seyemti  2024                             NaN                                9.26
+9        ET-TR-EU-418139-Tsaeda Emba  2024                             NaN                               13.69
+10       ET-TR-EU-851364-Subhasaesie  2024                             NaN                               12.88
+11            ET-TR-EU-859449-Asgede  2024                             NaN                                7.44
+12         ET-TR-EU-148517-Daba guna  2024                             NaN                                   9
+13             ET-TR-EU-045454-Chila  2024                             NaN                                13.4
+14       ET-TR-EU-854095-Edaga Hamus  2024                             NaN                                11.1
+15      ET-TR-EU-099410-Laelaymachew  2024                             NaN                                8.71
+16      ET-TR-EU-706350-Tahtaymachew  2024                             NaN                                7.11
+
+   eu-tr evaluation unit - trachoma*    fy survey tt result (%) (from_nis) survey tt result (%) (from_country)
+0          ET-TR-EU-148517-Daba guna  2024                             NaN                               0.477
+1              ET-TR-EU-045454-Chila  2024                             NaN                               0.973
+2        ET-TR-EU-854095-Edaga Hamus  2024                             NaN                               0.243
+3      ET-TR-EU-924594-Maekel Adyabo  2024                             NaN                               0.685
+4       ET-TR-EU-706350-Tahtaymachew  2024                             NaN                               1.163
+5           ET-TR-EU-914506-Freweyni  2024                             NaN                               0.582
+6            ET-TR-EU-210905-Seyemti  2024                             NaN                               0.423
+7               ET-TR-EU-892172-Adet  2024                             NaN                                0.88
+8            ET-TR-EU-605070-Tsimbla  2024                             NaN                               1.109
+9             ET-TR-EU-522325-Naeder  2024                             NaN                               1.057
+10            ET-TR-EU-859449-Asgede  2024                             NaN                               0.322
+11             ET-TR-EU-544962-Ahsea  2024                             NaN                               0.942
+12       ET-TR-EU-851364-Subhasaesie  2024                             NaN                               0.423
+13         ET-TR-EU-620206-Adi Daero  2024                             NaN                               1.079
+14       ET-TR-EU-418139-Tsaeda Emba  2024                             NaN                               0.604
+15              ET-TR-EU-870616-Rama  2024                             NaN                               0.345
+16      ET-TR-EU-099410-Laelaymachew  2024                             NaN                               0.735
+
+   eu-tr evaluation unit - trachoma*    fy programmatic decision mda (from_nis) programmatic decision mda (from_country)
+0          ET-TR-EU-148517-Daba guna  2024                                  NaN                  Continue or restart MDA
+1             ET-TR-EU-859449-Asgede  2024                                  NaN                  Continue or restart MDA
+2           ET-TR-EU-914506-Freweyni  2024                                  NaN                  Continue or restart MDA
+3              ET-TR-EU-544962-Ahsea  2024                                  NaN                  Continue or restart MDA
+4       ET-TR-EU-706350-Tahtaymachew  2024                                  NaN                  Continue or restart MDA
+5       ET-TR-EU-099410-Laelaymachew  2024                                  NaN                  Continue or restart MDA
+6        ET-TR-EU-418139-Tsaeda Emba  2024                                  NaN                  Continue or restart MDA
+7              ET-TR-EU-045454-Chila  2024                                  NaN                  Continue or restart MDA
+8             ET-TR-EU-522325-Naeder  2024                                  NaN                  Continue or restart MDA
+9            ET-TR-EU-605070-Tsimbla  2024                                  NaN                  Continue or restart MDA
+10           ET-TR-EU-210905-Seyemti  2024                                  NaN                  Continue or restart MDA
+11     ET-TR-EU-924594-Maekel Adyabo  2024                                  NaN                  Continue or restart MDA
+12       ET-TR-EU-851364-Subhasaesie  2024                                  NaN                  Continue or restart MDA
+13       ET-TR-EU-854095-Edaga Hamus  2024                                  NaN                  Continue or restart MDA
+14              ET-TR-EU-892172-Adet  2024                                  NaN                  Continue or restart MDA
+15              ET-TR-EU-870616-Rama  2024                                  NaN                  Continue or restart MDA
+16         ET-TR-EU-620206-Adi Daero  2024                                  NaN                  Continue or restart MDA
+

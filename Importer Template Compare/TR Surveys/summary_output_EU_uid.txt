@@ -1,0 +1,161 @@
+DataComPy Comparison
+--------------------
+
+DataFrame Summary
+-----------------
+
+      DataFrame  Columns  Rows
+0      from_nis       73   102
+1  from_country       73   102
+
+Column Summary
+--------------
+
+Number of columns in common: 72
+Number of columns in from_nis but not in from_country: 1
+Number of columns in from_country but not in from_nis: 1
+
+Row Summary
+-----------
+
+Matched on: eu-tr evaluation unit - trachoma*, event uid
+Any duplicates on match values: No
+Absolute Tolerance: 0
+Relative Tolerance: 0
+Number of rows in common: 102
+Number of rows in from_nis but not in from_country: 0
+Number of rows in from_country but not in from_nis: 0
+
+Number of rows with some compared columns unequal: 25
+Number of rows with all compared columns equal: 77
+
+Column Comparison
+-----------------
+
+Number of columns compared with some values unequal: 5
+Number of columns compared with all values equal: 67
+Total number of values which compare unequal: 100
+
+Columns with Unequal Values or Types
+------------------------------------
+
+                      Column from_nis dtype from_country dtype  # Unequal  Max Diff  # Null Diff
+4  programmatic decision mda         object             object         17       0.0           17
+0              review status         object             object         25       0.0            0
+1             survey status*         object             object         24       0.0            0
+2       survey tf result (%)         object             object         17       0.0           17
+3       survey tt result (%)         object             object         17       0.0           17
+
+Sample Rows with Unequal Values
+-------------------------------
+
+   eu-tr evaluation unit - trachoma*    event uid review status (from_nis) review status (from_country)
+0         ET-TR-EU-313920-Tankamlash  IBKkdMhlXHc                 Reviewed                 Not reviewed
+1              ET-TR-EU-182142-Bizet  FThQpeGwEHG                 Reviewed                 Not reviewed
+2             ET-TR-EU-859449-Asgede  VRb9pTQJUs9                 Reviewed                 Not reviewed
+3           ET-TR-EU-914506-Freweyni  gEcU7YfX3Ed                 Reviewed                 Not reviewed
+4   ET-TR-EU-238968-Abergele Yechila  ZjRvWe9Zyux                 Reviewed                 Not reviewed
+5        ET-TR-EU-854095-Edaga Hamus  SGMGF7b8wqM                 Reviewed                 Not reviewed
+6              ET-TR-EU-045454-Chila  OlaEGUBGTZ8                 Reviewed                 Not reviewed
+7               ET-TR-EU-892172-Adet  YD9i0YnFVYM                 Reviewed                 Not reviewed
+8      ET-TR-EU-999950-Tahtay Adyabo  yntxGg0ZLC3                 Reviewed                 Not reviewed
+9        ET-TR-EU-851364-Subhasaesie  kOMIuEgLBnn                 Reviewed                 Not reviewed
+10       ET-TR-EU-418139-Tsaeda Emba  SznNe4cuDiB                 Reviewed                 Not reviewed
+11         ET-TR-EU-148517-Daba guna  ukIu0Tuz38r                 Reviewed                 Not reviewed
+12              ET-TR-EU-870616-Rama  HaNn3kWwIjo                 Reviewed                 Not reviewed
+13      ET-TR-EU-099410-Laelaymachew  EnHYoEGyywi                 Reviewed                 Not reviewed
+14     ET-TR-EU-977569-Tahtay Koraro  jLTdT5Nf1c1                 Reviewed                 Not reviewed
+15        ET-TR-EU-493246-Gulomekeda  YwhuyliGEEX                 Reviewed                 Not reviewed
+16     ET-TR-EU-351504-Laelay Adyabo  GEoKztNkbDC                 Reviewed                 Not reviewed
+17         ET-TR-EU-620206-Adi Daero  CeogTBgoaHb                 Reviewed                 Not reviewed
+18           ET-TR-EU-210905-Seyemti  rQ5miO9R1qO                 Reviewed                 Not reviewed
+19     ET-TR-EU-924594-Maekel Adyabo  v487CUDRJiv                 Reviewed                 Not reviewed
+20            ET-TR-EU-522325-Naeder  NRbmqPt9Gv1                 Reviewed                 Not reviewed
+21             ET-TR-EU-544962-Ahsea  oZjtz0KgVgl                 Reviewed                 Not reviewed
+22     ET-TR-EU-543137-Ganta Afeshum  CdfAZzalB7F                 Reviewed                 Not reviewed
+23           ET-TR-EU-605070-Tsimbla  wAjiN87rYId                 Reviewed                 Not reviewed
+24      ET-TR-EU-706350-Tahtaymachew  gg5TY9aXqyf                 Reviewed                 Not reviewed
+
+   eu-tr evaluation unit - trachoma*    event uid               survey status* (from_nis)   survey status* (from_country)
+0              ET-TR-EU-045454-Chila  OlaEGUBGTZ8  Completed; final data not yet reported  Completed; final data reported
+1             ET-TR-EU-859449-Asgede  VRb9pTQJUs9                                 Planned  Completed; final data reported
+2        ET-TR-EU-418139-Tsaeda Emba  SznNe4cuDiB  Completed; final data not yet reported  Completed; final data reported
+3      ET-TR-EU-977569-Tahtay Koraro  jLTdT5Nf1c1                                 Planned         Postponed to another FY
+4        ET-TR-EU-854095-Edaga Hamus  SGMGF7b8wqM  Completed; final data not yet reported  Completed; final data reported
+5          ET-TR-EU-620206-Adi Daero  CeogTBgoaHb                                 Planned  Completed; final data reported
+6       ET-TR-EU-099410-Laelaymachew  EnHYoEGyywi                                 Planned  Completed; final data reported
+7      ET-TR-EU-543137-Ganta Afeshum  CdfAZzalB7F                                 Planned         Postponed to another FY
+8          ET-TR-EU-148517-Daba guna  ukIu0Tuz38r  Completed; final data not yet reported  Completed; final data reported
+9       ET-TR-EU-706350-Tahtaymachew  gg5TY9aXqyf                                 Planned  Completed; final data reported
+10              ET-TR-EU-892172-Adet  YD9i0YnFVYM                                 Planned  Completed; final data reported
+11     ET-TR-EU-999950-Tahtay Adyabo  yntxGg0ZLC3                                 Planned         Postponed to another FY
+12              ET-TR-EU-870616-Rama  HaNn3kWwIjo  Completed; final data not yet reported  Completed; final data reported
+13  ET-TR-EU-238968-Abergele Yechila  ZjRvWe9Zyux                                 Planned         Postponed to another FY
+14           ET-TR-EU-605070-Tsimbla  wAjiN87rYId                                 Planned  Completed; final data reported
+15            ET-TR-EU-522325-Naeder  NRbmqPt9Gv1                                 Planned  Completed; final data reported
+16             ET-TR-EU-544962-Ahsea  oZjtz0KgVgl  Completed; final data not yet reported  Completed; final data reported
+17     ET-TR-EU-924594-Maekel Adyabo  v487CUDRJiv                                 Planned  Completed; final data reported
+18           ET-TR-EU-210905-Seyemti  rQ5miO9R1qO                                 Planned  Completed; final data reported
+19       ET-TR-EU-851364-Subhasaesie  kOMIuEgLBnn  Completed; final data not yet reported  Completed; final data reported
+20          ET-TR-EU-914506-Freweyni  gEcU7YfX3Ed  Completed; final data not yet reported  Completed; final data reported
+21             ET-TR-EU-182142-Bizet  FThQpeGwEHG                                 Planned         Postponed to another FY
+22        ET-TR-EU-493246-Gulomekeda  YwhuyliGEEX                                 Planned         Postponed to another FY
+23        ET-TR-EU-313920-Tankamlash  IBKkdMhlXHc                                 Planned         Postponed to another FY
+
+   eu-tr evaluation unit - trachoma*    event uid survey tf result (%) (from_nis) survey tf result (%) (from_country)
+0              ET-TR-EU-045454-Chila  OlaEGUBGTZ8                             NaN                                13.4
+1        ET-TR-EU-418139-Tsaeda Emba  SznNe4cuDiB                             NaN                               13.69
+2             ET-TR-EU-522325-Naeder  NRbmqPt9Gv1                             NaN                                  16
+3            ET-TR-EU-210905-Seyemti  rQ5miO9R1qO                             NaN                                9.26
+4              ET-TR-EU-544962-Ahsea  oZjtz0KgVgl                             NaN                               13.28
+5               ET-TR-EU-892172-Adet  YD9i0YnFVYM                             NaN                               11.47
+6             ET-TR-EU-859449-Asgede  VRb9pTQJUs9                             NaN                                7.44
+7       ET-TR-EU-099410-Laelaymachew  EnHYoEGyywi                             NaN                                8.71
+8       ET-TR-EU-706350-Tahtaymachew  gg5TY9aXqyf                             NaN                                7.11
+9            ET-TR-EU-605070-Tsimbla  wAjiN87rYId                             NaN                                8.79
+10          ET-TR-EU-914506-Freweyni  gEcU7YfX3Ed                             NaN                               18.81
+11         ET-TR-EU-148517-Daba guna  ukIu0Tuz38r                             NaN                                   9
+12       ET-TR-EU-854095-Edaga Hamus  SGMGF7b8wqM                             NaN                                11.1
+13     ET-TR-EU-924594-Maekel Adyabo  v487CUDRJiv                             NaN                                6.78
+14       ET-TR-EU-851364-Subhasaesie  kOMIuEgLBnn                             NaN                               12.88
+15              ET-TR-EU-870616-Rama  HaNn3kWwIjo                             NaN                               11.23
+16         ET-TR-EU-620206-Adi Daero  CeogTBgoaHb                             NaN                                7.27
+
+   eu-tr evaluation unit - trachoma*    event uid survey tt result (%) (from_nis) survey tt result (%) (from_country)
+0          ET-TR-EU-620206-Adi Daero  CeogTBgoaHb                             NaN                               1.079
+1           ET-TR-EU-914506-Freweyni  gEcU7YfX3Ed                             NaN                               0.582
+2              ET-TR-EU-045454-Chila  OlaEGUBGTZ8                             NaN                               0.973
+3              ET-TR-EU-544962-Ahsea  oZjtz0KgVgl                             NaN                               0.942
+4        ET-TR-EU-418139-Tsaeda Emba  SznNe4cuDiB                             NaN                               0.604
+5            ET-TR-EU-210905-Seyemti  rQ5miO9R1qO                             NaN                               0.423
+6               ET-TR-EU-870616-Rama  HaNn3kWwIjo                             NaN                               0.345
+7             ET-TR-EU-859449-Asgede  VRb9pTQJUs9                             NaN                               0.322
+8        ET-TR-EU-854095-Edaga Hamus  SGMGF7b8wqM                             NaN                               0.243
+9             ET-TR-EU-522325-Naeder  NRbmqPt9Gv1                             NaN                               1.057
+10      ET-TR-EU-706350-Tahtaymachew  gg5TY9aXqyf                             NaN                               1.163
+11      ET-TR-EU-099410-Laelaymachew  EnHYoEGyywi                             NaN                               0.735
+12     ET-TR-EU-924594-Maekel Adyabo  v487CUDRJiv                             NaN                               0.685
+13       ET-TR-EU-851364-Subhasaesie  kOMIuEgLBnn                             NaN                               0.423
+14         ET-TR-EU-148517-Daba guna  ukIu0Tuz38r                             NaN                               0.477
+15           ET-TR-EU-605070-Tsimbla  wAjiN87rYId                             NaN                               1.109
+16              ET-TR-EU-892172-Adet  YD9i0YnFVYM                             NaN                                0.88
+
+   eu-tr evaluation unit - trachoma*    event uid programmatic decision mda (from_nis) programmatic decision mda (from_country)
+0            ET-TR-EU-210905-Seyemti  rQ5miO9R1qO                                  NaN                  Continue or restart MDA
+1          ET-TR-EU-148517-Daba guna  ukIu0Tuz38r                                  NaN                  Continue or restart MDA
+2        ET-TR-EU-418139-Tsaeda Emba  SznNe4cuDiB                                  NaN                  Continue or restart MDA
+3        ET-TR-EU-854095-Edaga Hamus  SGMGF7b8wqM                                  NaN                  Continue or restart MDA
+4               ET-TR-EU-892172-Adet  YD9i0YnFVYM                                  NaN                  Continue or restart MDA
+5               ET-TR-EU-870616-Rama  HaNn3kWwIjo                                  NaN                  Continue or restart MDA
+6       ET-TR-EU-099410-Laelaymachew  EnHYoEGyywi                                  NaN                  Continue or restart MDA
+7      ET-TR-EU-924594-Maekel Adyabo  v487CUDRJiv                                  NaN                  Continue or restart MDA
+8           ET-TR-EU-914506-Freweyni  gEcU7YfX3Ed                                  NaN                  Continue or restart MDA
+9        ET-TR-EU-851364-Subhasaesie  kOMIuEgLBnn                                  NaN                  Continue or restart MDA
+10            ET-TR-EU-859449-Asgede  VRb9pTQJUs9                                  NaN                  Continue or restart MDA
+11         ET-TR-EU-620206-Adi Daero  CeogTBgoaHb                                  NaN                  Continue or restart MDA
+12             ET-TR-EU-045454-Chila  OlaEGUBGTZ8                                  NaN                  Continue or restart MDA
+13            ET-TR-EU-522325-Naeder  NRbmqPt9Gv1                                  NaN                  Continue or restart MDA
+14      ET-TR-EU-706350-Tahtaymachew  gg5TY9aXqyf                                  NaN                  Continue or restart MDA
+15             ET-TR-EU-544962-Ahsea  oZjtz0KgVgl                                  NaN                  Continue or restart MDA
+16           ET-TR-EU-605070-Tsimbla  wAjiN87rYId                                  NaN                  Continue or restart MDA
+
