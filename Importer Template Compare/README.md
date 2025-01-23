@@ -24,5 +24,5 @@
 
     Then, open up your terminal in VS Code. Type "git clone"; add the URL that you have just copied at the end of the statement. Press enter, and the cloned repository will appear. 
 
-    Before running the program, ensure that the Macros "nis_download", "country_download", "summary_output", "additions_deletions" are updated. 
+    Before running the program, ensure that the Macros "nis_download", "country_download", "summary_output", "additions_deletions" are updated. Running with the current file paths will allow you to output using sample data that I've included in the GitHub folder. 
 
