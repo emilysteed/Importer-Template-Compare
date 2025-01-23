@@ -12,11 +12,11 @@
 
 ## Introduction:
 
-    "Nis_download" and "country_download" are the files to be compared, "summary_output" is a .txt extension where you would like the summary comparison report to be saved, and "additions_deletions" is a .xlsx extension where you would like the additions and deletions to be saved. Note that the names "nis_download" and "country_download" represent a common use case, but any two importer files may be compared using this program.
+    "Nis_download" and "country_download" are the files to be compared, "summary_output" are .txt extensions where you would like the summary comparison report to be saved, and "additions_deletions" is a .xlsx extension where you would like the additions and deletions to be saved. Note that the names "nis_download" and "country_download" represent a common use case, but any two importer files may be compared using this program.
 
-    There are two outputs: (1) Summary TXT file and (2) Additions/Deletions XLSX file. 
+    There are three outputs: (1) Summary TXT EU/UID file, (2) Summary TXT EU/FY file, and (3) Additions/Deletions XLSX file. 
 
-    The summary TXT file will highlight all changes between events (identified by the combination of their Event UID and Organisation Unit). It will also highlight all event additions and deletions. However, because the TXT file will only highlight the first ten columns/variables of added/deleted events, I have created a second XLSX output which will contain all variables for those events. 
+    The summary TXT files will highlight all changes between events (identified by the combination of either their (1) Event UID and Organisation Unit, or (2) Event UID and FY). It will also highlight event additions and deletions. However, because the TXT file will only highlight the first ten columns/variables of added/deleted events, I have created a second XLSX output which will contain all variables for those events. 
 
 ## Running the Program:
 
@@ -24,5 +24,4 @@
 
     Then, open up your terminal in VS Code. Type "git clone"; add the URL that you have just copied at the end of the statement. Press enter, and the cloned repository will appear. 
 
-    Before running the program, ensure that the Macros "nis_download", "country_download", "summary_output", "additions_deletions" are updated. Running with the current file paths will allow you to output using sample data that I've included in the GitHub folder. 
-
+    Before running the program, ensure that the Macros "nis_download", "country_download", "summary_output_EU_uid", "summary_output_EU_FY", additions_deletions" are updated. 
